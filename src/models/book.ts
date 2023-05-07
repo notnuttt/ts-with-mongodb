@@ -5,10 +5,9 @@ import { ObjectId } from "mongodb";
 // Class Implementation
 export default class Book {
     constructor(
-        title: string, 
-        pages: number, 
-        categories: string[], 
-        id?: ObjectId
+        public title: string, 
+        public pages: number, 
+        public categories: string[], 
+        public id?: ObjectId
     ) {}
-
 }

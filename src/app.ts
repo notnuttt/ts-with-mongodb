@@ -1,6 +1,6 @@
 import express from "express";
-import { connectToDatabase } from "./services/db-service";
-import { booksRouter } from "./routes/ books-route";
+import { connectToDatabase } from "./configs/db.config";
+import { booksRouter } from "./routes/ books.route";
 import dotenv from "dotenv";
 
 dotenv.config();
